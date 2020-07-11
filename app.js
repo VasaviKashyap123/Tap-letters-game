@@ -1,6 +1,3 @@
-const scoreBoard = document.querySelector('.score');
-const moles = document.querySelectorAll('.letter');
-let score = 0;
 
 var timeLeft = 10;
 
@@ -44,8 +41,7 @@ function btn(i) {
             //     }
             // }
             document.querySelectorAll("#C").forEach((value) => value.style.color = "red");
-            //document.getElementById("C").style.color = "red";
-
+           
 
             break;
         case 'A':
@@ -60,7 +56,7 @@ function btn(i) {
             //     }
             // }
             document.querySelectorAll("#A").forEach((value) => value.style.color = "red");
-            // document.getElementById("A").style.color = "red";
+           
             break;
         case 'T':
             // for (k = 0; k < arr.length; k++) {
@@ -88,7 +84,7 @@ function btn(i) {
             //     }
             // }
             document.querySelectorAll("#B").forEach((value) => value.style.color = "red");
-            //document.getElementById("B").style.color = "red";
+            
             break;
 
         case 'M':
@@ -103,7 +99,7 @@ function btn(i) {
             //     }
             // }
             document.querySelectorAll("#M").forEach((value) => value.style.color = "red");
-            // document.getElementById("M").style.color = "red";
+            
             break;
 
         case 'R':
@@ -118,7 +114,7 @@ function btn(i) {
             //     }
             // }
             document.querySelectorAll("#R").forEach((value) => value.style.color = "red");
-            // document.getElementById("R").style.color = "red";
+            
             break;
 
         default:
