@@ -1,0 +1,131 @@
+
+   
+
+
+ * {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+#time ul li
+{
+list-style: none;
+text-align: center;
+cursor: pointer;
+}
+
+ul,li {
+    list-style: none;
+    
+    
+}
+
+#start {
+    text-decoration: none;
+    border-radius: 4px;
+
+}
+
+header,
+footer {
+    padding: 20px;
+    
+    color:white;
+    border-radius: 20px;
+    background-image: url("animated-pattern.gif");
+}
+
+section {
+    width: 60%;
+    float: left;
+    height: 400px;
+    background: black;
+    color: black;
+    background-color: cornflowerblue;
+}
+
+.right {
+    width: 35%;
+    float: left;
+    height: 400px;
+    background: black;
+    border-left: 2px solid cornflowerblue;
+    margin-left: 5%;
+    color: black;
+    background-color: cornflowerblue;
+}
+
+.main * {
+
+    cursor: pointer;
+    font-size: 40px;
+
+}
+
+.main {
+    margin: 10px 0px;
+}
+
+.main::after {
+    content: none;
+    display: grid;
+    clear: both;
+}
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    
+
+}
+
+#buttons1 {
+    padding: 20px 20px;
+    height: 20px;
+    width: 850px;
+    margin-left: 20px;
+
+}
+
+#buttons2 {
+    padding: 20px;
+    height: 20px;
+    width: 850px;
+    margin-right: 20px;
+
+}
+
+#buttons3 {
+    padding: 20px;
+    height: 20px;
+    width: 850px;
+    margin-left: 20px;
+}
+
+#buttons4 {
+    padding: 20px;
+    height: 20px;
+    width: 850px;
+    margin-right: 20px;
+}
+
+#buttons5 {
+    padding: 20px;
+    height: 20px;
+    width: 850px;
+    margin-left: 20px;
+}
+
+#buttons6 {
+    padding: 20px;
+    height: 20px;
+    width: 850px;
+    margin-right: 20px;
+}
