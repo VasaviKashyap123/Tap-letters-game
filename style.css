@@ -77,7 +77,13 @@ section {
     display: grid;
     clear: both;
 }
+.container {
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    
 
+}
 
 
 #buttons1 {
